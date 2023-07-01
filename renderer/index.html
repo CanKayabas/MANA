@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/grapesjs/dist/css/grapes.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MANA</title>
+</head>
+
+<body>
+  <div class="row" style="height:100%">
+    <div id="layers" class="column" style="flex-basis: 500px;">
+      Layers here
+      <div id="layers-container"></div>
+    </div>
+
+    <div class="column editor-clm">
+      <div id="blocks"></div>
+      <div id="gjs2" style="overflow:hidden;">
+        <div style="padding: 25px 50px; margin: 50px 50px 0;" data-gjs-name="Text1">
+          Text 1
+        </div>
+        <div style="padding: 25px 50px; margin: 0 50px;" data-gjs-name="Text2">
+          Text 2
+        </div>
+      </div>
+    </div>
+
+    <div id="style-manager" class="column" style="flex-basis: 500px">
+      Style Manager here
+      <br>
+      <div id="selectors-container"></div>
+      <div id="traits-container"></div>
+      <div id="style-manager-container"></div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/mana.js"></script>
+</body>
+
+</html>
